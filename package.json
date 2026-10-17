@@ -1,0 +1,27 @@
+{
+  "name": "state-machine-orchestrator-ts",
+  "version": "1.0.0",
+  "description": "Strictly-typed Finite State Machine (FSM) & Asynchronous Workflow Orchestrator in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsc && node dist/orderWorkflow.example.js",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "typescript",
+    "state-machine",
+    "fsm",
+    "finite-state-machine",
+    "workflow",
+    "orchestrator",
+    "typed"
+  ],
+  "author": "Juan Delgado",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.12.0"
+  }
+}
